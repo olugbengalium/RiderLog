@@ -12,7 +12,7 @@ const WelcomeScreen = ({ navigation }) => {
 
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>This App was Crafted by Engr. Akinbande using React Native</Text>
+      <Text style={styles.title}>This App was Crafted by Engr. Famous using React Native</Text>
       <Text style={{fontStyle: 'italic', fontSize: 18, padding: 10}}>You can choose to login or view posts</Text>
       <TouchableOpacity onPress={handleLoginButtonPress} style={styles.button}>
         <Text style={styles.buttonText}>Signin</Text>
